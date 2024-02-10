@@ -375,7 +375,6 @@ export interface ApiArticleArticle extends Schema.CollectionType {
   };
   attributes: {
     title: Attribute.String & Attribute.Required;
-    text: Attribute.Text & Attribute.Required;
     date: Attribute.Date & Attribute.Required;
     tag: Attribute.Enumeration<
       ['Actualit\u00E9s', 'Infos', 'Ev\u00E9nements']
